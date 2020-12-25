@@ -33,8 +33,9 @@
   --heading-text-color: #242a31;
   --light-text-color: #9daab6;
   --light-text-color-darker: #74818d;
-  --codeboxes: #183055;
+  --codeboxes: #292d3e;
   --codeboxes-lighter: #1c375f;
+
   --rawblock-edit-panel-bd: transparent;
 
   --primary-color-white: #82abec;
@@ -508,38 +509,47 @@ table tr td:last-child {
   color: #9daab6;
 }
 
-.cm-s-inner span.cm-string,
 .cm-s-inner span.cm-string-2 {
-  color: #71a7ff;
+  color: #f07178;
+}
+.cm-s-inner span.cm-string {
+  color: #c3e88d;
 }
 
 .cm-s-inner span.cm-number {
-  color: #ff9d3d;
+  color: #ffcb6b;
 }
 
-.cm-s-inner span.cm-variable,
-.cm-s-inner span.cm-variable-2 {
-  color: white;
+/*方法、变量名*/
+.cm-s-inner span.cm-variable {
+  color: #f07178;
+}
+.cm-s-inner .cm-variable-2 {
+  color: #eeffff;
 }
 
 .cm-s-inner span.cm-def {
-  color: white;
+  color: #82aaff;
 }
 
+/*操作符*/
 .cm-s-inner span.cm-operator {
-  color: #ff9d3d;
+  color: #89ddff;
 }
 
+/*关键字*/
 .cm-s-inner span.cm-keyword {
-  color: #61e3a5;
+  color: #c792ea;
 }
 
+
+/*null*/
 .cm-s-inner span.cm-atom {
-  color: #bd93f9;
+  color: #f78c6c;
 }
 
 .cm-s-inner span.cm-meta {
-  color: #f8f8f2;
+  color: #ffcb6b;
 }
 
 .cm-s-inner span.cm-link,
@@ -549,27 +559,35 @@ table tr td:last-child {
 
 .cm-s-inner span.cm-tag,
 .cm-s-inner .cm-header {
-  color: #b4f6d6;
+  color: #ff5370;
 }
 
 .cm-s-inner span.cm-attribute {
-  color: #ff9d3d;
+  color: #c792ea;
 }
 
-.cm-s-inner span.cm-qualifier,
-.cm-s-inner span.cm-type,
-.cm-s-inner span.cm-variable-3 {
-  color: #82ee9d;
+
+.cm-s-inner span.cm-qualifier {
+  color: #decb6b;
+}
+
+/*这是返回类型*/
+.cm-s-inner span.cm-variable-3,
+.cm-s-inner span.cm-type {
+  color: #f07178;
 }
 
 .cm-s-inner span.cm-property {
-  color: #ffd6ad;
+  color: #c792ea;
 }
 
 .cm-s-inner span.cm-builtin {
-  color: #8ffaaa;
+  color: #ffcb6b;
 }
-
+.cm-s-inner span.cm-error {
+  color: rgba(255, 255, 255, 1);
+  background-color: #ff5370;
+}
 .md-fences.md-focus .cm-s-inner .CodeMirror-activeline-background {
   background: none;
 }
