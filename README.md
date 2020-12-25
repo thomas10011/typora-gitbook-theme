@@ -27,3 +27,10 @@ Feel free [to submit an issue](https://github.com/Henning16/typora-gitbook-theme
 ![](media/gitbookui2.png)
 
 ![](media/gitbookui3.png)
+
+
+
+## Change List
+
+- modified code block color of *gitbook-azure*.
+
